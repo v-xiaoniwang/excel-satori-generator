@@ -305,9 +305,8 @@ The screenshot that the issue cannot reproduce:`;
         >
           AssignMent Mapping
         </Button>
-        <Button danger type="link" block icon={<DeleteOutlined />} onClick={handleClearCache}></Button>
-      </Space>
-      
+        <Button danger type="link" block icon={<DeleteOutlined />} onClick={handleClearCache}>Clean</Button>
+      </Space>   
       <br />
       <Space>
         <h3>Lyics工具:</h3>
@@ -352,7 +351,7 @@ The screenshot that the issue cannot reproduce:`;
       <Menu
         mode="horizontal"
         triggerSubMenuAction="click"
-        style={{ height: 50, lineHeight: '50px', fontSize: '14px' }} // 修改菜单高度和字体
+        style={{ height: 55, lineHeight: '50px', fontSize: '14px' }} // 修改菜单高度和字体
         openKeys={expandedTabs}
         onOpenChange={(keys) => setExpandedTabs(keys)}
       >
