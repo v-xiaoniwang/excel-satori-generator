@@ -18,6 +18,7 @@ import {
   FileWordTwoTone,
   FileExcelTwoTone,
   DiffOutlined,
+  DeleteOutlined
 } from "@ant-design/icons";
 
 import menuData from "../config/dastMenuData.json";
@@ -117,6 +118,21 @@ The screenshot that the issue cannot reproduce:`;
   };
 
   const getMaxHeight = (isExpanded) => (isExpanded ? "1000px" : "0px");
+
+  const handleClearCache = () => {
+  // 1. 清 localStorage
+  localStorage.removeItem("selectedRows");
+  localStorage.removeItem("dastText");
+ 
+  // 2. 重置 state
+  setSelectedRows([]);
+  setText("");
+  setWarningList([]);
+  setActiveKey(null);
+  setExpandedTabs([]);
+ 
+  message.success("缓存已清除");
+};
 
   // ✅ URL查询按钮
   const handleGo = () => {
@@ -289,7 +305,9 @@ The screenshot that the issue cannot reproduce:`;
         >
           AssignMent Mapping
         </Button>
+        <Button danger type="link" block icon={<DeleteOutlined />} onClick={handleClearCache}></Button>
       </Space>
+      
       <br />
       <Space>
         <h3>Lyics工具:</h3>
