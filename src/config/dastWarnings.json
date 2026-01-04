@@ -1,0 +1,248 @@
+{
+  "Carousel>Entity Image>Neelam Singh": [
+    "不管什么问题，都不允许修改carousel中的数据，最多block query 或者 block carousel"
+  ],
+  "Carousel>Entity Name>Neelam Singh": [
+    "不管什么问题，都不允许修改carousel中的数据，最多block query 或者 block carousel"
+  ],
+  "Carousel>Generative List>David Cummings <davicum@microsoft.com>": [
+    
+    "1.carousel with \"Generated using AI\"",
+    "2.Generative List：如果是完全不相关的，就直接block掉query，这个属于Trigger问题，给Eason。如果只有几个不相关 active @devown",
+    "3.记得添加FCID"
+  ],
+  "Carousel>Structured Value>Neelam Singh": [
+     "不管什么问题，都不允许修改carousel中的数据，最多block query 或者 block carousel"
+  ],
+  "Carousel>Triggering>Bharat Chandramouli <bhchandr@microsoft.com>": [
+     "不管什么问题，都不允许修改carousel中的数据，最多block query 或者 block carousel"
+  ],
+  "Carousel>UI>Amr Gamal <amrgamal@microsoft.com>": [
+     "不管什么问题，都不允许修改carousel中的数据，最多block query 或者 block carousel"
+  ],
+  "Entity Refinement>Dominant Label>Neelam Singh": [
+    "添加 eeitabs tag，删除 KCDSAT tag"
+  ],
+  "Entity Refinement>Entity Image>Neelam Singh": [
+    "添加 eeitabs tag，删除 KCDSAT tag"
+  ],
+  "Entity Refinement>Entity Name>Neelam Singh": ["添加 eeitabs tag，删除 KCDSAT tag"],
+  "Entity Refinement>Other>Ariane Evans <arianeevans@microsoft.com>": ["添加 eeitabs tag，删除 KCDSAT tag"],
+  "Entity Refinement>Tabs>Neelam Singh": ["添加 eeitabs tag，删除 KCDSAT tag"],
+  "Entity Refinement>Triggering>Eason Lian <ealian@microsoft.com>": ["添加 eeitabs tag，删除 KCDSAT tag"],
+  "Entity Refinement>UI>Amr Gamal <amrgamal@microsoft.com>": ["添加 eeitabs tag，删除 KCDSAT tag"],
+  "Instant Answer>Entity Image>Neelam Singh": [
+    "优先修改Trinity，如果Trinity 中没有数据，或者数据是对的，再去block"
+  ],
+  "Instant Answer>Entity Name>Neelam Singh": [
+    "优先修改Trinity，如果Trinity 中没有数据，或者数据是对的，再去block"
+  ],
+  "Instant Answer>Structured Value>Neelam Singh": [
+    "优先修改Trinity，如果Trinity 中没有数据，或者数据是对的，再去block",
+    "如果tab上有Litepartner，那么需要更改为satorifactandcarousel"
+  ],
+  "Instant Answer>Triggering>Bharat Chandramouli <bhchandr@microsoft.com>": [
+    "优先修改Trinity，如果Trinity 中没有数据，或者数据是对的，再去block"
+  ],
+  "Instant Answer>UI>Amr Gamal <amrgamal@microsoft.com>": [
+    "优先修改Trinity，如果Trinity 中没有数据，或者数据是对的，再去block"
+  ],
+  "Knowledge Task Pane>Actions>Neelam Singh": [],
+  "Knowledge Task Pane>Awards>Neelam Singh": [],
+  "Knowledge Task Pane>Career>Jithendar Paladugula <jpalad@microsoft.com>": [],
+  "Knowledge Task Pane>Chart>Jithendar Paladugula <jpalad@microsoft.com>": [],
+  "Knowledge Task Pane>Comparison>Jithendar Paladugula <jpalad@microsoft.com>": [],
+  "Knowledge Task Pane>Description>Neelam Singh": [
+    "信息过时，比如LinkedIn的数据，点开LinkedIn对比一下;确实过时，active给Neelam，如果一样就by-design"
+  ],
+  "Knowledge Task Pane>Dominant Label>Neelam Singh": [],
+  "Knowledge Task Pane>Donation>Neelam Singh": [],
+  "Knowledge Task Pane>Entity Image>Neelam Singh": [
+    "如果图片只是过时，并且有自己新的image，那这个数据本身是正确，不需要删除，如果是错误就删除"
+  ],
+  "Knowledge Task Pane>Entity Name>Neelam Singh": [],
+  "Knowledge Task Pane>Explore More>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "如果是图片本身错误，只删除ID，如果是实体名称都错误，删除全部",
+    "如果 Explore More 中单个实体的名称或图像存在问题，则所有者应为 Neelam, 但如果 PASF 的问题涉及实体集合（例如，集合中存在错误/无效的实体，或实体间的图像不匹配），则所有者应为 Jithendar"
+  ],
+  "Knowledge Task Pane>FinancialInsights>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "1.Jithendar: this is no longer support, if any this kind of issue, send to your lead please."
+  ],
+  "Knowledge Task Pane>Hero Image>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "如果图片只是过时，并且有自己新的image，那这个数据本身是正确，不需要删除，如果是错误就删除"
+  ],
+  "Knowledge Task Pane>Hero Video>Neelam Singh": [],
+  "Knowledge Task Pane>Honeybee>Jithendar Paladugula <jpalad@microsoft.com>": [],
+  "Knowledge Task Pane>Image Collage>Neelam Singh": [],
+  "Knowledge Task Pane>Interesting Carousel>Neelam Singh": [],
+  "Knowledge Task Pane>Interesting Facts>Neelam Singh": [],
+  "Knowledge Task Pane>Map>Neelam Singh": [],
+  "Knowledge Task Pane>Official Website>Neelam Singh": [],
+  "Knowledge Task Pane>Other>Dayashree Narasimhan <danaras@microsoft.com>": [],
+  "Knowledge Task Pane>Other Products>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "1.Jithendar: this is no longer support, if any this kind of issue, send to your lead please."
+  ],
+  "Knowledge Task Pane>Places of interest>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "1.Powered by Travel team, Jithendar will help to coordinate."
+  ],
+  "Knowledge Task Pane>Poll>Dayashree Narasimhan <danaras@microsoft.com>": [
+    "需要打开texthooks查看 Module"
+  ],
+  "Knowledge Task Pane>Profiles>Neelam Singh": [],
+  "Knowledge Task Pane>Quick Facts>Neelam Singh": [],
+  "Knowledge Task Pane>Quotes>Neelam Singh": [],
+  "Knowledge Task Pane>Ratings>Neelam Singh": [],
+  "Knowledge Task Pane>Ratings UGC>Frank Fan <bafan@microsoft.com>": [],
+  "Knowledge Task Pane>Related Entities>Neelam Singh": [],
+  "Knowledge Task Pane>Reviews>Neelam Singh": [],
+  "Knowledge Task Pane>Stories>Neelam Singh": [],
+  "Knowledge Task Pane>Timeline>Neelam Singh": [
+    "不管是什么问题，删除所有的数据，并且要删除 12个语言",
+    "点开text版本 https://satoriv2test.azurewebsites.net/EntityRepositoryBrowser/PreviewMatrix ，选择all，某个语言不显示就不需要去修改，显示的都需要一个一个删除，没有错误的数据也不要删除"
+  ],
+  "Knowledge Task Pane>Triggering>Eason Lian <ealian@microsoft.com>": [
+    "删除KCDAST的tag，添加 KCTriggering 的tag"
+  ],
+  "Knowledge Task Pane>Trivia>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "需要打开texthooks查看 Module"
+  ],
+  "Knowledge Task Pane>UI>Jithendar Paladugula <jpalad@microsoft.com>": [],
+  "Knowledge Task Pane>Video Collections>Neelam Singh": [],
+  "Knowledge Task Pane>Visit>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "1.Powered by Travel team, Jithendar will help to coordinate."
+  ],
+  "Knowledge Task Pane>3D Module>Dayashree Narasimhan <danaras@microsoft.com>": [],
+  "Knowledge Task Pane>WhyToWatch>Hernando Bermudez": [],
+  "Lyrics Answer>Lyrics>Neelam Singh": [
+    "1.需要对比，Genius，听 you tube上的video",
+    "2.歌词完全是另外一首歌的，也要提交 ticket 如果用户说完全是错的，把Bing的歌词拿到谷歌去搜索一下",
+    "3.这么去找一些靠谱的歌词，可以在google里面找一下（Genius，AzLyrics, Letras de music)",
+    "4.拟声词，OH，AH，这些不是什么问题，年代或者某些词用数字，或者字母来代替，也不是什么问题"
+  ],
+  "Lyrics Answer>Other>Neelam Singh": [
+    "词作者，曲作者有问题，也需要提交ticket，可以去谷歌去搜索一下",
+    "1.Attention that if the lyric writer is incorrect, and the wrong information comes from the lyrics source, ticket also need to be created for data updating, and the owner should be Neelam"
+  ],
+  "Lyrics Answer>UI>Akram Mohamed <akrammohamed@microsoft.com>": [
+    "简繁体，标注 by-design"
+  ],
+  "Lyrics Answer>Triggering>Bharat Chandramouli <bhchandr@microsoft.com>": [
+    "注意版本，如果query里明确说了要remix 版本，给了original版本的，需要给dev owner"
+  ],
+  "Magazine>Hero Image>Jithendar Paladugula <jpalad@microsoft.com>": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Magazine>Dates>xuzho@microsoft.com": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容",
+    "1.the sys for dates show as wholePageTemplate_MagazineV3 and the dates not in satori which could be updated in v2 portal",
+    "2.有时候报时间错误可能是应为地区不同，也就是region不同导致时区不一样，要查看不同的时区"
+  ],
+  "Magazine>Image Collage>Neelam Singh": [
+    "Consideration about Magazine's Image Collage:",
+    "\u3000\u30001. If the bad image exists in Satori, then it's via KC, the Dev Owner should still be Neelam Singh.  - Our dsat, need to have tag with BysReviewed or BysEdit_Triaged",
+    "-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+    "Reassing out dsat with modeify tag:",
+    "\u3000\u30001. If the bad image is for MM (multimedia),We should reassign out. then it's should be Greg Matveev (the default assign to) with BysEdit_Reassigned tag.",
+    "\u3000\u30002. If we can see the module is AlgoBlock team, then need to reassign out to the AlgoBlock team (Yining Chen) with BysEdit_Reassigned tag.",
+    "\u3000\u30003. Keep here for 2 weeks to monitor status, will remove after 2 weeks"
+  ],
+  "Magazine>Map>Neelam Singh": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Magazine>Other>Rahul Lal <rahull@microsoft.com>": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Magazine>Quick Facts>Neelam Singh": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Magazine>Timeline>Neelam Singh": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Magazine>Entity Image>Neelam Singh/ Kevin Wang <wankevin@microsoft.com>": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容",
+    "If it is from satori, owner should be neelam, if the data is not from KC/ Satori, then dev owner should be Kevin Wang <wankevin@microsoft.com>"
+  ],
+  "Magazine>Triggering>specific module owner": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容",
+    "1.The Magazine is triggered from the first algo (web result) only which is not expected, it should be Magazine Triggerring issue by Yining Chen instead of Eason Lian",
+    "2.When assign bug to Yining Chen <Yining.Chen@microsoft.com>, need to remove KCDSAT or KCTriggering tag, wptdsat tag and reassign out with with BysEdit_Reassigned tag.",
+    "3.Keep here for 2 weeks to monitor status, will remove after 2 weeks"
+  ],
+  "Magazine>Description>Neelam Singh/ Kevin Wang <wankevin@microsoft.com>": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容",
+    "Dev Owner for Description in magazine, depend on where the data from",
+    "1. If the reported DSAT here is caused by the Satori V2 data we can edit to mitigate, then should belong to Neelam.",
+    "2. If it's not relate with Satori V2's data (e.g. Satori V2 data is correct, but here is wrong), then the issue belong to Kevin Wang.",
+    "This is the case example: https://msasg.visualstudio.com/Bing_and_IPG/_workitems/edit/7932759"
+  ],
+  "Magazine>Hero Video>Neelam Singh": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Magazine>UI>Rahul Lal <rahull@microsoft.com>": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容",
+    "Please check tesk hooks and assign to answer owner"
+  ],
+  "Magazine>Stories>Neelam Singh": [
+    "Magainze 需要分类，打开texthooks查看feeds的内容"
+  ],
+  "Movie Answer>Other>Will confirm later": [],
+  "Movie Answer>Showtimes>Neelam Singh": [],
+  "Movie Answer>Triggering>Bharat Chandramouli <bhchandr@microsoft.com>": [],
+  "Algoblock>Algo_Triggering>Kevin Wang (wankevin@microsoft.com)": [
+    "1.Assign to Guo Hua Xin v-guohuaxin@microsoft.com, He can mitigate magazine or mitigate an card in magazine."
+  ],
+  "Algoblock>Algo_Wikipedia>Kevin Wang (wankevin@microsoft.com)": [],
+  "Algoblock>Algo_ExploreMore>Yining Chen <Yining.Chen@microsoft.com>": [],
+  "Algoblock>Algo_DeepLinks>Kevin Wang (wankevin@microsoft.com)": [],
+  "Algoblock>Algo_SiteName>Kevin Wang (wankevin@microsoft.com)": [
+    "1.Liling Yuan main responsibility on this, and ususally assign to v-manlima@microsoft.com to deal this."
+  ],
+  "Algoblock>Algo_RichNav>Kevin Wang (wankevin@microsoft.com)": [],
+  "Algoblock>Algo_ImageCaption>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_ImageCollage>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_TextCarousel>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_Recipe>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_VideoCaption>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_TableCaption>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_FactRow>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_Favicon UX>Caochun Xu <caochunxu@microsoft.com>": [
+    "1.label them as by design if it is really the UX issue cause by design, and leave active if it’s really ux issue and escalate to Caochun. "
+  ],
+  "Algoblock>Algo_RichCard>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_ListCaption>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_ChartCaption>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_SegmentGoBig>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Algo_LyricsCaption>Yining Chen <Yining.Chen@microsoft.com>": [],
+  "Algoblock>Algo_QuizAnswer>Yining Chen <Yining.Chen@microsoft.com>": [],
+  "Algoblock>Algo_Date>Yining Chen <Yining.Chen@microsoft.com>": [],
+  "Algoblock>Algo_Other>Yining Chen <Yining.Chen@microsoft.com>": [],
+  "Algoblock>Algo_UI>Caochun Xu<caochunxu@microsoft.com>": [],
+  "Algoblock>Algo_ForumCollapse>Kai Pan (pankai@microsoft.com)": [],
+  "Algoblock>Favicon>Mingxin Shi (mis@microsoft.com)": [
+    "Reassigned out to Bing Favicon DRI: favicondri@microsoft.com, need to add tag favicon and GM_KunWu"
+  ],
+
+  "Creator Answer>Creator_Triggering>Yingying He <yingyhe@microsoft.com>": [
+    "Over-trigger or wrong trigger​"
+  ],
+  "Creator Answer>Creator_Obsolete>Yingying He <yingyhe@microsoft.com>": [
+    "Intent and Answer direction is correct, content is incorrect due to out of date.​"
+  ],
+  "Creator Answer>Creator_Content>Yingying He <yingyhe@microsoft.com>": [
+    "Content issue​",
+    "Tag \"TechCodeIssue\"need added if it is code issue"
+  ],
+  "Creator Answer>Creator_Intent>Yingying He <yingyhe@microsoft.com>": [
+    "Direction / intent Miss match​"
+  ],
+  "Creator Answer>Creator_Hallucination>Yingying He <yingyhe@microsoft.com>": [
+    "intent correct but answer wrong​"
+  ],
+  "Creator Answer>Creator_UI>Yingying He <yingyhe@microsoft.com>": [],
+  "Creator Answer>Creator_RAI>Yingying He <yingyhe@microsoft.com>": [
+    "e.g. Creator Answer show “Sorry, we can’t generate the content right now.” For “holocaust” query",
+    "1.Block the Creator Answer​",
+    "2.Resolve it as “Copied to Backlog”",
+    "3.Link it with ID：9736914"
+  ]
+}

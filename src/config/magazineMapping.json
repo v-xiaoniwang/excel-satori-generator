@@ -1,0 +1,72 @@
+[
+  {
+    "type": "EntityCommon Magazine",
+    "condition": "Magazine Feeds 包含 KC_EntityCommon",
+    "examples": "KC_EntityCommon"
+  },
+  {
+    "type": "Song Magazine",
+    "condition": "Feeds 名称以 Song_Hero 开头",
+    "examples": "Song_HeroVideo_KC,\u3000Song_HeroVideo,\u3000Song_HeroVideo_NoLyrics_Album,\u3000Song_HeroVideo_NoLyrics"
+  },
+  {
+    "type": "Album Magazine",
+    "condition": "Feeds 名称以 SongAlbum_ 开头",
+    "examples": "SongAlbum_HeroVideo_KC,\u3000SongAlbum_RelatedVideos_KC,\u3000SongAlbum_Algo_KC"
+  },
+  {
+    "type": "Date Magazine",
+    "condition": "Feed 为 singleDatesAnswer_onlyCard",
+    "examples": "-"
+  },
+  {
+    "type": "RichCardGoBig Magazine",
+    "condition": "Feed 类型为 RichCardGoBigAlgo",
+    "examples": "RichCardGoBigAlgo_KC_Mix1"
+  },
+  {
+    "type": "QnA Magazine",
+    "condition": "Feeds 名称以 QnA_ 开头",
+    "examples": "QnA_Layout3"
+  },
+  {
+    "type": "Nav Magazine",
+    "condition": "Magazine 含有 deeplinks（例如视图中带导航链接）",
+    "examples": "-"
+  },
+  {
+    "type": "Algo Magazine",
+    "condition": "Feed 含 algo 且无 deeplinks，名称以 Algo1_ 开头",
+    "examples": "-"
+  },
+  {
+    "type": "WikiGoBig Magazine",
+    "condition": "For any magazine’s feeds start with WikiGoBigAlgo​/ WikipediaGoBig",
+    "examples": "-"
+  },
+  {
+    "type": "Game Magazine",
+    "condition": "Feed 名称类似 Gaming_Rich_Layout03",
+    "examples": "-"
+  },
+  {
+    "type": "Video Magazine",
+    "condition": "Feed 名称类似 Video_Layout1",
+    "examples": "-"
+  },
+  {
+    "type": "NewsGoBigAlgo Magazine",
+    "condition": "Feeds 名称以 NewsGoBigAlgo 开头",
+    "examples": "-"
+  },
+  {
+    "type": "GMagazine",
+    "condition": "Feeds 名称为 GMagazine",
+    "examples": "-"
+  },
+    {
+    "type": "KCEntity Magazine",
+    "condition": "feed name 包含KC_什么的就标记KCEntity Magazine",
+    "examples": "KC_EntityMovie"
+  }
+]

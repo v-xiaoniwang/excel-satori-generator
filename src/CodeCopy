@@ -1,0 +1,202 @@
+import React, { useState } from "react";
+import {
+  Menu,
+  Divider,
+  Space,
+  Button,
+  Table,
+  Input,
+  message,
+  Row,
+  Col,
+} from "antd";
+import {
+  TranslationOutlined,
+  CopyOutlined,
+} from "@ant-design/icons";
+
+const { TextArea } = Input;
+
+// ✅ 菜单数据自动构建
+const rawData = [
+  ["Carousel", "Entity Image", "Neelam Singh"],
+  ["Carousel", "Entity Name", "Neelam Singh"],
+  ["Carousel", "Generative List", "David Cummings <davicum@microsoft.com>"],
+  ["Carousel", "Structured Value", "Neelam Singh"],
+  ["Carousel", "Triggering", "Eason Lian <ealian@microsoft.com>"],
+  ["Carousel", "UI", "Amr Gamal <amrgamal@microsoft.com>"],
+  ["Entity Refinement", "Dominant Label", "Neelam Singh"],
+  ["Entity Refinement", "Entity Image", "Neelam Singh"],
+  ["Entity Refinement", "Entity Name", "Neelam Singh"],
+  ["Entity Refinement", "Other", "Ariane Evans <arianeevans@microsoft.com>"],
+  ["Entity Refinement", "Tabs", "Neelam Singh"],
+  ["Entity Refinement", "Triggering", "Eason Lian <ealian@microsoft.com>"],
+  ["Entity Refinement", "UI", "Amr Gamal <amrgamal@microsoft.com>"],
+  ["Instant Answer", "Entity Image", "Neelam Singh"],
+  ["Instant Answer", "Entity Name", "Neelam Singh"],
+  ["Instant Answer", "Structured Value", "Neelam Singh"],
+  ["Instant Answer", "Triggering", "Eason Lian <ealian@microsoft.com>"],
+  ["Instant Answer", "UI", "Amr Gamal <amrgamal@microsoft.com>"],
+  ["Knowledge Task Pane", "Actions", "Neelam Singh"],
+  ["Knowledge Task Pane", "Career", "Jithendar Paladugula <jpalad@microsoft.com>"],
+  ["Lyrics Answer", "UI", "Akram Mohamed <akrammohamed@microsoft.com>"],
+  ["Algoblock", "Algo_UI", "Caochun Xu<caochunxu@microsoft.com>"],
+  ["Algoblock", "Algo_QuizAnswer", "Yining Chen <Yining.Chen@microsoft.com>"],
+  ["Movie Answer", "Other", "Will confirm later"],
+];
+
+// ✅ 把原始数据转成 { 一级: [ { 二级, 子项 } ] } 结构
+const menuData = rawData.reduce((acc, [lvl1, lvl2, lvl3]) => {
+  if (!acc[lvl1]) acc[lvl1] = [];
+  let parent = acc[lvl1].find((item) => item.label === lvl2);
+  if (!parent) {
+    parent = { key: lvl2, label: lvl2, children: [] };
+    acc[lvl1].push(parent);
+  }
+  parent.children.push({ key: lvl3, label: lvl3 });
+  return acc;
+}, {});
+
+// ✅ 可复制单元格
+const CopyableCell = ({ text }) => (
+  <Space>
+    <span>{text}</span>
+    <Button
+      size="small"
+      type="text"
+      icon={<CopyOutlined />}
+      onClick={() => {
+        navigator.clipboard.writeText(text);
+        message.success("已复制！");
+      }}
+    />
+  </Space>
+);
+
+// ✅ 表格定义
+const columns = [
+  {
+    title: "AnswerType (CustomerString01)",
+    dataIndex: "answerType",
+    render: (t) => <CopyableCell text={t} />,
+  },
+  {
+    title: "ProblemType (CustomerString02)",
+    dataIndex: "problemType",
+    render: (t) => <CopyableCell text={t} />,
+  },
+  {
+    title: "DevOwner",
+    dataIndex: "devOwner",
+    render: (t) => <CopyableCell text={t} />,
+  },
+];
+
+export default function DASTSection() {
+  const [selected, setSelected] = useState([]);
+  const [text, setText] = useState("");
+
+  // ✅ 点击第三级菜单时触发
+  const handleClick = (lvl1, lvl2, lvl3) => {
+    const newRow = {
+      key: Date.now(),
+      answerType: lvl1,
+      problemType: lvl2,
+      devOwner: lvl3,
+    };
+    setSelected([newRow]);
+    setText(
+`Issue: 
+RootCause: 
+Action taken: I have editorially deleted the ${lvl3} key in ERB. Made changes are reflecting fine, please find the attached screenshot.
+SID and Source: 
+The original screenshot for the issue:
+The screenshot after the issue mitigated:`
+    );
+  };
+
+  // ✅ 递归渲染菜单
+  const renderSubMenu = (items, lvl1) =>
+    items.map((i) =>
+      i.children ? (
+        <Menu.SubMenu key={i.key} title={i.label}>
+          {i.children.map((c) => (
+            <Menu.Item key={c.key} onClick={() => handleClick(lvl1, i.label, c.label)}>
+              {c.label}
+            </Menu.Item>
+          ))}
+        </Menu.SubMenu>
+      ) : (
+        <Menu.Item key={i.key}>{i.label}</Menu.Item>
+      )
+    );
+
+  return (
+    <div style={{ padding: 20 }}>
+      <Space>
+        <h3>常用工具:</h3>
+        <Button
+          type="link"
+          icon={<TranslationOutlined />}
+          href="https://translate.google.com/"
+          target="_blank"
+        >
+          谷歌翻译
+        </Button>
+      </Space>
+
+      <Divider />
+
+      <h3>DAST Mapping:</h3>
+      <Menu mode="horizontal" style={{ background: "#fafafa" }}>
+        {Object.keys(menuData).map((lvl1) => (
+          <Menu.SubMenu key={lvl1} title={lvl1}>
+            {renderSubMenu(menuData[lvl1], lvl1)}
+          </Menu.SubMenu>
+        ))}
+      </Menu>
+
+      {selected.length > 0 && (
+        <>
+          <Divider />
+          <Row gutter={24}>
+            <Col span={12}>
+              <h3>选中结果：</h3>
+              <Table
+                columns={columns}
+                dataSource={selected}
+                pagination={false}
+                bordered
+                size="middle"
+              />
+            </Col>
+
+            <Col span={12}>
+              <h3>Issue Template：</h3>
+              <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
+                <TextArea
+                  rows={18}
+                  value={text}
+                  onChange={(e) => setText(e.target.value)}
+                  style={{ flex: 1, width: "100%", resize: "none", fontSize: 15 }}
+                />
+                <div style={{ textAlign: "right", marginTop: 8 }}>
+                  <Button
+                    type="primary"
+                    icon={<CopyOutlined />}
+                    onClick={() => {
+                      navigator.clipboard.writeText(text);
+                      message.success("文本已复制！");
+                    }}
+                  >
+                    复制文本
+                  </Button>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </>
+      )}
+    </div>
+  );
+}

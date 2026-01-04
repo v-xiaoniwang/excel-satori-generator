@@ -1,0 +1,161 @@
+{
+  "Carousel": [
+    {
+      "key": "entityImage",
+      "label": "Entity Image",
+      "children": [
+        { "key": "neelam1", "label": "Neelam Singh" }
+      ]
+    },
+    {
+      "key": "entityName",
+      "label": "Entity Name",
+      "children": [{ "key": "neelam2", "label": "Neelam Singh" }]
+    },
+    {
+      "key": "generativeList",
+      "label": "Generative List",
+      "children": [{ "key": "david", "label": "David Cummings <davicum@microsoft.com>" }]
+    },
+    {
+      "key": "structuredValue",
+      "label": "Structured Value",
+      "children": [{ "key": "neelam3", "label": "Neelam Singh" }]
+    },
+    {
+      "key": "triggering",
+      "label": "Triggering",
+      "children": [{ "key": "bharat", "label": "Bharat Chandramouli <bhchandr@microsoft.com>" }]
+    },
+    {
+      "key": "ui",
+      "label": "UI",
+      "children": [{ "key": "amr", "label": "Amr Gamal <amrgamal@microsoft.com>" }]
+    }
+  ],
+  "Entity Refinement": [
+    { "key": "dominantLabel", "label": "Dominant Label", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "entityImage", "label": "Entity Image", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "entityName", "label": "Entity Name", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "other", "label": "Other", "children": [{ "key": "ariane", "label": "Ariane Evans <arianeevans@microsoft.com>" }] },
+    { "key": "tabs", "label": "Tabs", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "bharat", "label": "Bharat Chandramouli <bhchandr@microsoft.com>" }] },
+    { "key": "ui", "label": "UI", "children": [{ "key": "amr", "label": "Amr Gamal <amrgamal@microsoft.com>" }] }
+  ],
+  "Instant Answer": [
+    { "key": "entityImage", "label": "Entity Image", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "entityName", "label": "Entity Name", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "structuredValue", "label": "Structured Value", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "bharat", "label": "Bharat Chandramouli <bhchandr@microsoft.com>" }] },
+    { "key": "ui", "label": "UI", "children": [{ "key": "amr", "label": "Amr Gamal <amrgamal@microsoft.com>" }] }
+  ],
+  "Knowledge Task Pane": [
+    { "key": "actions", "label": "Actions", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "awards", "label": "Awards", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "career", "label": "Career", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "chart", "label": "Chart", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "comparison", "label": "Comparison", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "description", "label": "Description", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "dominantLabel", "label": "Dominant Label", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "donation", "label": "Donation", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "entityImage", "label": "Entity Image", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "entityName", "label": "Entity Name", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "exploreMore", "label": "Explore More", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "financialInsights", "label": "FinancialInsights", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "heroImage", "label": "Hero Image", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "heroVideo", "label": "Hero Video", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "honeybee", "label": "Honeybee", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "imageCollage", "label": "Image Collage", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "interestingCarousel", "label": "Interesting Carousel", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "interestingFacts", "label": "Interesting Facts", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "map", "label": "Map", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "officialWebsite", "label": "Official Website", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "other", "label": "Other", "children": [{ "key": "dayashree", "label": "Dayashree Narasimhan <danaras@microsoft.com>" }] },
+    { "key": "otherProducts", "label": "Other Products", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "placesOfInterest", "label": "Places of interest", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "poll", "label": "Poll", "children": [{ "key": "dayashree", "label": "Dayashree Narasimhan <danaras@microsoft.com>" }] },
+    { "key": "profiles", "label": "Profiles", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "quickFacts", "label": "Quick Facts", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "quotes", "label": "Quotes", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "ratings", "label": "Ratings", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "ratingsUGC", "label": "Ratings UGC", "children": [{ "key": "frank", "label": "Frank Fan <bafan@microsoft.com>" }] },
+    { "key": "relatedEntities", "label": "Related Entities", "children": [{ "key": "neelam", "label": "Neelam Singh"}] },
+    { "key": "reviews", "label": "Reviews", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "stories", "label": "Stories", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "timeline", "label": "Timeline", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "eason", "label": "Eason Lian <ealian@microsoft.com>" }] },
+    { "key": "trivia", "label": "Trivia", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "ui", "label": "UI", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "videoCollections", "label": "Video Collections", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "visit", "label": "Visit", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "3DModule", "label": "3D Module", "children": [{ "key": "dayashree", "label": "Dayashree Narasimhan <danaras@microsoft.com>" }] },
+    { "key": "whyToWatch", "label": "WhyToWatch", "children": [{ "key": "hernando", "label": "Hernando Bermudez" }] }
+  ],
+  "Lyrics Answer": [
+    { "key": "lyrics", "label": "Lyrics", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "other", "label": "Other", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "ui", "label": "UI", "children": [{ "key": "akram", "label": "Akram Mohamed <akrammohamed@microsoft.com>" }] },
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "bharat", "label": "Bharat Chandramouli <bhchandr@microsoft.com>" }] }
+  ],
+  "Magazine": [
+    { "key": "heroImage", "label": "Hero Image", "children": [{ "key": "jithendar", "label": "Jithendar Paladugula <jpalad@microsoft.com>" }] },
+    { "key": "dates", "label": "Dates", "children": [{ "key": "jerry", "label": "xuzho@microsoft.com" }] },
+    { "key": "imageCollage", "label": "Image Collage", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "map", "label": "Map", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "other", "label": "Other", "children": [{ "key": "rahul", "label": "Rahul Lal <rahull@microsoft.com>" }] },
+    { "key": "quickFacts", "label": "Quick Facts", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "timeline", "label": "Timeline", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "entityImage", "label": "Entity Image", "children": [{ "key": "neelamKevin", "label": "Neelam Singh/ Kevin Wang <wankevin@microsoft.com>" }] },
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "eason", "label": "specific module owner" }] },
+    { "key": "description", "label": "Description", "children": [{ "key": "neelamKevin", "label": "Neelam Singh/ Kevin Wang <wankevin@microsoft.com>" }] },
+    { "key": "heroVideo", "label": "Hero Video", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "ui", "label": "UI", "children": [{ "key": "rahul", "label": "Rahul Lal <rahull@microsoft.com>" }] },
+    { "key": "stories", "label": "Stories", "children": [{ "key": "neelam", "label": "Neelam Singh" }] }
+  ],
+  "Movie Answer": [
+    { "key": "other", "label": "Other", "children": [{ "key": "willConfirm", "label": "Will confirm later" }] },
+    { "key": "showtimes", "label": "Showtimes", "children": [{ "key": "neelam", "label": "Neelam Singh" }] },
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "bharat", "label": "Bharat Chandramouli <bhchandr@microsoft.com>" }] }
+  ],
+  "Algoblock": [
+    { "key": "algoTriggering", "label": "Algo_Triggering", "children": [{ "key": "kevin", "label": "Kevin Wang (wankevin@microsoft.com)" }] },
+    { "key": "algoWikipedia", "label": "Algo_Wikipedia", "children": [{ "key": "kevin", "label": "Kevin Wang (wankevin@microsoft.com)" }] },
+    { "key": "algoExploreMore", "label": "Algo_ExploreMore", "children": [{ "key": "yining", "label": "Yining Chen <Yining.Chen@microsoft.com>" }] },
+    { "key": "algoDeepLinks", "label": "Algo_DeepLinks", "children": [{ "key": "kevin", "label": "Kevin Wang (wankevin@microsoft.com)" }] },
+    { "key": "algoSiteName", "label": "Algo_SiteName", "children": [{ "key": "kevin", "label": "Kevin Wang (wankevin@microsoft.com)" }] },
+    { "key": "algoRichNav", "label": "Algo_RichNav", "children": [{ "key": "kevin", "label": "Kevin Wang (wankevin@microsoft.com)" }] },
+    { "key": "algoImageCaption", "label": "Algo_ImageCaption", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoImageCollage", "label": "Algo_ImageCollage", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoTextCarousel", "label": "Algo_TextCarousel", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoRecipe", "label": "Algo_Recipe", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoVideoCaption", "label": "Algo_VideoCaption", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoTableCaption", "label": "Algo_TableCaption", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoFactRow", "label": "Algo_FactRow", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoFaviconUX", "label": "Algo_Favicon UX", "children": [{ "key": "caochun", "label": "Caochun Xu <caochunxu@microsoft.com>" }] },
+    { "key": "algoRichCard", "label": "Algo_RichCard", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoListCaption", "label": "Algo_ListCaption", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoChartCaption", "label": "Algo_ChartCaption", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoSegmentGoBig", "label": "Algo_SegmentGoBig", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "algoLyricsCaption", "label": "Algo_LyricsCaption", "children": [{ "key": "yining", "label": "Yining Chen <Yining.Chen@microsoft.com>" }] },
+    { "key": "algoQuizAnswer", "label": "Algo_QuizAnswer", "children": [{ "key": "yining", "label": "Yining Chen <Yining.Chen@microsoft.com>" }] },
+    { "key": "algoDate", "label": "Algo_Date", "children": [{ "key": "yining", "label": "Yining Chen <Yining.Chen@microsoft.com>" }] },
+    { "key": "algoOther", "label": "Algo_Other", "children": [{ "key": "yining", "label": "Yining Chen <Yining.Chen@microsoft.com>" }] },
+    { "key": "algoUI", "label": "Algo_UI", "children": [{ "key": "caochun", "label": "Caochun Xu <caochunxu@microsoft.com>" }] },
+    { "key": "algoForumCollapse", "label": "Algo_ForumCollapse", "children": [{ "key": "kai", "label": "Kai Pan (pankai@microsoft.com)" }] },
+    { "key": "favicon", "label": "Favicon", "children": [{ "key": "mingxin", "label": "Mingxin Shi (mis@microsoft.com)" }] },
+    { "key": "algoa11y", "label": "Algo_A11y", "children": [{ "key": "yuxinzhong", "label": "yuxinzhong@microsoft.com" }] }
+  ],
+  "Creator Answer": [
+    { "key": "Creator_Triggering", "label": "Creator_Triggering", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_Obsolete", "label": "Creator_Obsolete", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_Content", "label": "Creator_Content", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_Intent", "label": "Creator_Intent", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_Hallucination", "label": "Creator_Hallucination", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_UI", "label": "Creator_UI", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_RAI", "label": "Creator_RAI", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] },
+    { "key": "Creator_LangMisMatch", "label": "Creator_LangMisMatch", "children": [{ "key": "yingyhe", "label": "Yingying He <yingyhe@microsoft.com>" }] }
+  ],
+  "Date Magazine": [
+    { "key": "triggering", "label": "Triggering", "children": [{ "key": "brianhooper", "label": "brianhooper@microsoft.com" }] }
+  ]
+}

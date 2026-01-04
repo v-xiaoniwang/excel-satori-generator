@@ -1,0 +1,50 @@
+.compare-container {
+  width: 95%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* 输入区域排列 */
+.input-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.text-box {
+  width: 50%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+  font-family: Consolas, monospace;
+}
+
+/* Diff 区域 */
+.diff-container {
+  display: flex;
+  border: 1px solid #ccc;
+  height: 400px;
+}
+
+.diff-box {
+  width: 50%;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.diff-box:last-child {
+  border-right: none;
+}
+
+/* 调整 react-diff-viewer 的默认样式，让它更像 Notepad++ */
+.diff-container .diff-viewer {
+  font-size: 13px !important;
+  line-height: 1.4;
+}

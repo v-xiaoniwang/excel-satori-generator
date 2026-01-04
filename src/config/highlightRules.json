@@ -1,0 +1,33 @@
+[
+  {
+    "word": "Yining Chen <Yining.Chen@microsoft.com>",
+    "color": "#237804",
+    "background": "#f6ffed"
+  },
+  { "word": "KCDSAT", "color": "#237804", "background": "#f6ffed" },
+  { "word": "eeitabs", "color": "#237804", "background": "#f6ffed" },
+  { "word": "KCTriggering", "color": "#237804", "background": "#f6ffed" },
+  { "word": "wptdsat", "color": "#237804", "background": "#f6ffed" },
+  { "word": "BysEdit_Reassigned", "color": "#237804", "background": "#f6ffed" },
+  {
+    "word": "Keep here for 2 weeks to monitor status, will remove after 2 weeks",
+    "color": "#a8071a"
+  },
+   {
+    "word": "If the bad image exists in Satori, then it's via KC, the Dev Owner should still be Neelam Singh.  - Our dsat, need to have tag with BysReviewed or BysEdit_Triaged",
+    "color": "#237804",
+    "background": "#f6ffed"
+  },
+     { "word": "EntityCommon Magazine", "color": "#237804", "background": "#f6ffed" }, 
+   { "word": "Feeds with", "color": "#faad14" },
+   { "word": "KC_EntityCommon", "color": "#237804", "background": "#f6ffed" },
+   { "word": "KC_EntityCommon", "color": "#237804", "background": "#f6ffed" },
+   { "word": "Song_HeroVideo_KC", "color": "#237804", "background": "#f6ffed" },
+   { "word": "Song_HeroVideo_NoLyrics_Album​", "color": "#237804", "background": "#f6ffed" },
+   { "word": "Song_HeroVideo_NoLyrics", "color": "#237804", "background": "#f6ffed" },
+   { "word": "注意magainze需要分类","color":"#a8071a", "background": "#fff1f0"},
+   { "word": "remove", "color": "#a8071a"},
+   { "word": "Module", "color": "#237804"},
+   { "word": "Dev Owner for Description in magazine, depend on where the data from", "color": "#a8071a"},
+   { "word": "Magainze 需要分类，打开texthooks查看feeds的内容", "color": "#a8071a"}
+]
